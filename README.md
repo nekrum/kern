@@ -7,7 +7,7 @@ salta del código a la diapositiva y de la diapositiva al código. Trae vista de
 apuntador láser, lupa y modo Vim. Se puede invitar a otras personas a editar el mismo proyecto en
 tiempo real, con conexión cifrada, sin servidor ni cuentas. Para macOS, Linux y Windows.
 
-> Este repositorio solo publica los paquetes de Kern. El código fuente no es público.
+> Este repositorio solo publica los paquetes de Kern. El código fuente aun no es público.
 
 <p align="center">
   <img src="media/kern-promo.gif" alt="Kern: escribe en Typst, mira la diapositiva al momento, presenta y colabora" width="720">
