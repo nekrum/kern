@@ -2,6 +2,15 @@
 
 Las notas de cada release se toman de aquí: la sección `## <versión>` del tag que se publica.
 
+## 0.3.0
+
+### Editor
+- Cambios hechos en disco por otro programa (p. ej. una IA) mientras editas: si no chocan con lo
+  tuyo se integran solos; si chocan, una barra deja elegir «Usar la del disco», «Conservar la
+  mía» o «Resolver a mano» (marcas `<<<<<<<` / `>>>>>>>`). Al recargar se conservan cursor y ⌘Z.
+- **Recargar** (Archivo → Recargar, ⌘R / Ctrl+R): relee las pestañas del disco y compila desde
+  cero; el aviso dice la hora de la compilación.
+
 ## 0.2.0
 
 Primera versión con el nombre **Kern** (antes, Typst Viewer).

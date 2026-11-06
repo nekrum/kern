@@ -10,7 +10,7 @@ tiempo real, con conexión cifrada, sin servidor ni cuentas. Para macOS, Linux y
 > Este repositorio solo publica los paquetes de Kern. El código fuente no es público.
 
 <p align="center">
-  <img src="media/kern-tutorial.gif" alt="Tutorial de Kern: qué es Typst, el editor con vista previa, presentar y colaborar" width="800">
+  <img src="media/kern-promo.gif" alt="Kern: escribe en Typst, mira la diapositiva al momento, presenta y colabora" width="720">
 </p>
 
 ## Descargar
@@ -46,6 +46,12 @@ reciente (Ubuntu 22.04 o posterior, o equivalente).
 está firmado: **Más información → Ejecutar de todas formas**. Al compartir o unirte a una sesión,
 el firewall puede pedir permiso de red.
 
+## Cómo funciona
+
+<p align="center">
+  <img src="media/kern-tutorial.gif" alt="Tutorial de Kern: qué es Typst, el editor con vista previa, presentar y colaborar" width="800">
+</p>
+
 ## Lo básico
 
 | Tecla | Acción |
@@ -56,6 +62,7 @@ el firewall puede pedir permiso de red.
 | `a` · `z` · `b` | apuntador láser · lupa · pantalla en negro |
 | `e` / ⌘E (Ctrl+E) | editor del código |
 | ⌘S (Ctrl+S) | guardar |
+| ⌘R (Ctrl+R) | recargar del disco y recompilar (útil si otro programa o una IA cambió el archivo) |
 | ⌘F · ⌘⇧F (Ctrl+F · Ctrl+H) | buscar · reemplazar |
 | ⌘-clic (Ctrl-clic) en la diapositiva | ir al código que la produjo |
 | ⌘⇧M (Ctrl+Shift+M) | chat de la sesión |
