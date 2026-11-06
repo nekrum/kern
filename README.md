@@ -10,9 +10,7 @@ tiempo real, con conexión cifrada, sin servidor ni cuentas. Para macOS, Linux y
 > Este repositorio solo publica los paquetes de Kern. El código fuente no es público.
 
 <p align="center">
-  <a href="media/kern-tutorial.mp4"><img src="media/kern-tutorial.gif" alt="Tutorial de Kern: qué es Typst, el editor con vista previa, presentar y colaborar" width="800"></a>
-  <br>
-  <sub>Tutorial de 1 minuto · <a href="media/kern-tutorial.mp4">ver en MP4 con calidad completa</a></sub>
+  <img src="media/kern-tutorial.gif" alt="Tutorial de Kern: qué es Typst, el editor con vista previa, presentar y colaborar" width="800">
 </p>
 
 ## Descargar
