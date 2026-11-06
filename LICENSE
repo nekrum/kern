@@ -1,0 +1,44 @@
+Kern — licencia de uso del programa
+Copyright (c) 2026 nekrum. Todos los derechos reservados.
+
+1. Uso. Puedes descargar, instalar y usar Kern gratis, en cualquier número de equipos y para
+   cualquier fin, también comercial. Los documentos que crees o edites con Kern son tuyos.
+
+2. Distribución. Puedes compartir los paquetes oficiales sin modificar (tal como se publican en
+   https://github.com/nekrum/kern/releases), sin cobrar por ellos.
+
+3. Restricciones. No puedes modificar, descompilar, desensamblar ni hacer ingeniería inversa de
+   Kern, salvo en la medida en que la ley aplicable lo permita expresamente; ni venderlo,
+   alquilarlo o redistribuirlo modificado o bajo otro nombre.
+
+4. Componentes de terceros. Kern incluye bibliotecas y fuentes de terceros con sus propias
+   licencias, listadas en THIRD-PARTY-LICENSES.html. Esta licencia no limita los derechos que
+   esas licencias te dan sobre esos componentes.
+
+5. Sin garantía. Kern se ofrece "tal cual", sin garantía de ningún tipo, expresa o implícita,
+   incluidas las de comerciabilidad, idoneidad para un fin concreto y no infracción. En ningún
+   caso el autor será responsable de daños de ningún tipo derivados del uso de Kern o de la
+   imposibilidad de usarlo.
+
+-------------------------------------------------------------------------------------------------
+
+Kern — software license (English translation; the Spanish text above prevails)
+Copyright (c) 2026 nekrum. All rights reserved.
+
+1. Use. You may download, install and use Kern free of charge, on any number of computers and for
+   any purpose, including commercial use. Documents you create or edit with Kern are yours.
+
+2. Distribution. You may share the official, unmodified packages (as published at
+   https://github.com/nekrum/kern/releases), without charging for them.
+
+3. Restrictions. You may not modify, decompile, disassemble or reverse engineer Kern, except to
+   the extent expressly permitted by applicable law; nor sell, rent, or redistribute it modified
+   or under another name.
+
+4. Third-party components. Kern includes third-party libraries and fonts under their own
+   licenses, listed in THIRD-PARTY-LICENSES.html. This license does not limit the rights those
+   licenses grant you over those components.
+
+5. No warranty. Kern is provided "as is", without warranty of any kind, express or implied,
+   including merchantability, fitness for a particular purpose and non-infringement. In no event
+   shall the author be liable for any damages arising from the use of, or inability to use, Kern.
