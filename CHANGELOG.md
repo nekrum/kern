@@ -2,6 +2,15 @@
 
 Las notas de cada release se toman de aquí: la sección `## <versión>` del tag que se publica.
 
+## 0.4.0
+
+### Vista
+- **GIF animados**: un `#image("demo.gif")` se ve animado en la vista, el presentador y la
+  ventana de presentación (en el PDF y las exportaciones sigue fijo en su primer cuadro).
+- **Vídeo** (solo macOS por ahora): `#metadata((t: "Video", v: "demo.mp4")) <kern>` antes de la
+  imagen de póster; se reproduce con audio encima del póster al entrar en la diapositiva. Tecla
+  `v` para pausar o reanudar; opciones `loop` y `mute`.
+
 ## 0.3.0
 
 ### Editor
