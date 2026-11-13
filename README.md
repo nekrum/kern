@@ -60,6 +60,7 @@ el firewall puede pedir permiso de red.
 | `f` | pantalla completa |
 | `p` | vista de presentador (notas, siguiente diapositiva, tiempo) |
 | `a` · `z` · `b` | apuntador láser · lupa · pantalla en negro |
+| `v` | pausar o reanudar el vídeo de la diapositiva |
 | `e` / ⌘E (Ctrl+E) | editor del código |
 | ⌘S (Ctrl+S) | guardar |
 | ⌘R (Ctrl+R) | recargar del disco y recompilar (útil si otro programa o una IA cambió el archivo) |
@@ -72,6 +73,27 @@ el firewall puede pedir permiso de red.
 **Colaborar:** *Colaboración → Compartir* copia un ticket; quien lo pega en *Colaboración →
 Unirse* edita contigo. El anfitrión decide si hace falta admitir a cada persona, cuántas pueden
 entrar y quién puede editar o solo mirar.
+
+## GIF y vídeo
+
+**GIF animado:** una imagen normal, `#image("demo.gif")`. Kern lo anima en la vista, el
+presentador y la ventana de presentación.
+
+**Vídeo** (por ahora solo en macOS): un metadato con la etiqueta `<kern>` justo antes de la
+imagen que hace de póster:
+
+```typst
+#metadata((t: "Video", v: "demo.mp4")) <kern>
+#image("poster.png", width: 80%)
+```
+
+`v` es la ruta del vídeo relativa a la carpeta del documento, y el archivo tiene que estar dentro
+de ella. El vídeo se reproduce con audio encima del póster, en su mismo hueco, al entrar en la
+diapositiva. Opciones: `loop: true` para repetirlo y `mute: true` para quitarle el sonido. Abre
+los formatos que abre QuickTime (`.mp4`, `.mov`…).
+
+En el PDF y las exportaciones se ve el GIF en su primer cuadro y, del vídeo, el póster; lo mismo
+en Linux y Windows con el vídeo.
 
 ## Cambios
 
