@@ -56,11 +56,11 @@ el firewall puede pedir permiso de red.
 
 | Tecla | Acción |
 |---|---|
-| ← → / espacio | diapositiva anterior / siguiente |
+| ← → ↑ ↓ / espacio / rueda o trackpad | diapositiva anterior / siguiente |
 | `f` | pantalla completa |
 | `p` | vista de presentador (notas, siguiente diapositiva, tiempo) |
 | `a` · `z` · `b` | apuntador láser · lupa · pantalla en negro |
-| `v` | pausar o reanudar el vídeo de la diapositiva |
+| `v` | pausar o reanudar el vídeo de la diapositiva (para moverte por él, la barra de su borde inferior) |
 | `e` / ⌘E (Ctrl+E) | editor del código |
 | ⌘S (Ctrl+S) | guardar |
 | ⌘R (Ctrl+R) | recargar del disco y recompilar (útil si otro programa o una IA cambió el archivo) |
@@ -91,6 +91,12 @@ imagen que hace de póster:
 de ella. El vídeo se reproduce con audio encima del póster, en su mismo hueco, al entrar en la
 diapositiva. Opciones: `loop: true` para repetirlo y `mute: true` para quitarle el sonido. Abre
 los formatos que abre QuickTime (`.mp4`, `.mov`…).
+
+La sintaxis está también dentro de la app, en *Ayuda → Notas, GIF y vídeo en el documento…*.
+
+**Compartir en una videollamada** (macOS): abre la ventana de presentación con `w`, compártela y
+dirige desde la ventana principal. Aunque esta la tape, quien mira la llamada ve cada cambio, y
+los vídeos y GIF siguen corriendo.
 
 En el PDF y las exportaciones se ve el GIF en su primer cuadro y, del vídeo, el póster; lo mismo
 en Linux y Windows con el vídeo.

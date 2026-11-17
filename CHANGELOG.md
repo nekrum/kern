@@ -2,6 +2,23 @@
 
 Las notas de cada release se toman de aquí: la sección `## <versión>` del tag que se publica.
 
+## 0.4.1
+
+- Menú **Ayuda → Notas, GIF y vídeo en el documento…**: muestra la sintaxis y copia el ejemplo
+  de vídeo al portapapeles.
+- Vídeo: barra de progreso translúcida en su borde inferior (vista y presentador); un clic o un
+  arrastre sobre ella lo lleva a ese punto.
+- ↑ y ↓ pasan de diapositiva (con la lupa puesta siguen cambiando su aumento), y también la rueda
+  del ratón o el trackpad sobre la diapositiva ajustada a la ventana.
+- Al saltar de la vista al código, el editor centra la línea de destino y la resalta hasta que
+  muevas el cursor; el cursor del editor es ahora azul.
+- Corregido (macOS): una ventana de Kern tapada del todo por otra (p. ej. la de presentación,
+  compartida en una videollamada, detrás de la principal mientras editas) no se redibujaba
+  hasta traerla al frente; ahora pinta cada cambio aunque esté tapada, y los vídeos y GIF siguen
+  corriendo en ella (a unos 20 cuadros por segundo).
+- Corregido: la vista podía quedarse con la imagen anterior de una página si esta cambiaba de
+  posición (al añadir o quitar otra antes) mientras se dibujaba.
+
 ## 0.4.0
 
 ### Vista
