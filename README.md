@@ -89,10 +89,16 @@ imagen que hace de póster:
 
 `v` es la ruta del vídeo relativa a la carpeta del documento, y el archivo tiene que estar dentro
 de ella. El vídeo se reproduce con audio encima del póster, en su mismo hueco, al entrar en la
-diapositiva. Opciones: `loop: true` para repetirlo y `mute: true` para quitarle el sonido. Abre
-los formatos que abre QuickTime (`.mp4`, `.mov`…).
+diapositiva. Opciones: `loop: true` para repetirlo y `mute: true` para quitarle el sonido.
 
-La sintaxis está también dentro de la app, en *Ayuda → Notas, GIF y vídeo en el documento…*.
+Formatos: `.mp4` y `.mov` (H.264, HEVC, VP9 o AV1) y `.webm` con vídeo VP9 o AV1 y audio Opus. Un
+WebM no se recodifica: la primera vez se reenvuelve como MP4 en `~/Library/Caches/kern/video` y
+mientras tanto se ve el póster. Un WebM con VP8 no se reproduce (se queda el póster) y el audio
+Vorbis se descarta. Si cambias el archivo del vídeo con Kern abierto, se vuelve a abrir al
+recompilar o con *Archivo → Recargar*.
+
+La sintaxis está también dentro de la app, en *Ayuda → Notas, GIF y vídeo en el documento…*, y la
+versión instalada, en *Ayuda → Acerca de Kern*.
 
 **Compartir en una videollamada** (macOS): abre la ventana de presentación con `w`, compártela y
 dirige desde la ventana principal. Aunque esta la tape, quien mira la llamada ve cada cambio, y

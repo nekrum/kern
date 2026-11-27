@@ -2,6 +2,15 @@
 
 Las notas de cada release se toman de aquí: la sección `## <versión>` del tag que se publica.
 
+## 0.4.2
+
+- Vídeo (macOS): se reproducen **WebM** con VP9 o AV1 y audio Opus, y MP4 con VP9 o AV1. El
+  WebM no se recodifica: se reenvuelve como MP4 en la caché la primera vez. AV1 necesita un Mac
+  que lo decodifique (M3 o posterior); VP8 y el audio Vorbis no se admiten.
+- Corregido: si el archivo de un vídeo cambiaba en disco con Kern abierto, se seguía usando el
+  anterior hasta reiniciar; ahora se vuelve a abrir al compilar o con *Archivo → Recargar*.
+- **Acerca de Kern** (menú *Kern* en macOS y *Ayuda*): muestra la versión.
+
 ## 0.4.1
 
 - Menú **Ayuda → Notas, GIF y vídeo en el documento…**: muestra la sintaxis y copia el ejemplo
